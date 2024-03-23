@@ -15,7 +15,7 @@ pipeline {
             }
         }
 
-        stage('Run') {
+        stage('Run it') {
             steps {
                 sh "cd test / && java Main"
             }
